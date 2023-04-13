@@ -1,0 +1,34 @@
+{
+  "name": {
+    "en": "SysAp System utilization",
+    "de": "SysAp Systemauslastung",
+    "nl": "SysAp systeemgebruik"
+  },
+  "version": "0.0.3",
+  "id": "com.SysApUtilization",
+  "license": "GPL",
+  "description": {
+    "en": "SysAp System utilization site on http://sysap:3000/",
+    "de": "SysAp-Systemauslastungsseite auf http://sysap:3000/",
+    "nl": "SysAp-site voor systeemgebruik op http://sysap:3000/"
+  },
+  "url": {
+	"en": "https://github.com/roel80/Free-At-Home-Addon-SystemResources",
+	"de": "https://github.com/roel80/Free-At-Home-Addon-SystemResources",
+  "nl": "https://github.com/roel80/Free-At-Home-Addon-SystemResources"
+  },
+  "author": "Roeland Kluit",
+  "type": "app",
+  "entryPoint": "build/main.js",
+  "parameters": {
+    "default": {
+      "name": "Settings",
+      "items": {
+        "key": {
+          "name": "Sample setting",
+          "type": "string"
+        }
+      }
+    }
+  }
+}
